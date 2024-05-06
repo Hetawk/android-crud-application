@@ -46,7 +46,7 @@ This project served as an excellent learning opportunity to enhance skills and u
 
 # Sample Output
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; justify-content: center;">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; justify-content: center; max-width: 1200px; margin: 0 auto;">
 
 <!-- First Row -->
 <div style="margin: 5px;">
