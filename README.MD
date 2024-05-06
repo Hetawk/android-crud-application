@@ -46,82 +46,80 @@ This project served as an excellent learning opportunity to enhance skills and u
 
 # Sample Output
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; justify-content: center;">
 
 <!-- First Row -->
 <div style="margin: 5px;">
-    <img src="results/1-create_database.png" alt="Create Database" style="max-width: 200px;">
+    <img src="results/1-create_database.png" alt="Create Database" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/2-add_user_to_database.png" alt="Add User to Database" style="max-width: 200px;">
+    <img src="results/2-add_user_to_database.png" alt="Add User to Database" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/2.1-user_save_successfully.png" alt="User Saved Successfully" style="max-width: 200px;">
+    <img src="results/2.1-user_save_successfully.png" alt="User Saved Successfully" style="max-width: 100%; height: auto;">
 </div>
 
 <!-- Second Row -->
 <div style="margin: 5px;">
-    <img src="results/3.1-adding_a_user_with_married_field_check.png" alt="Adding a User with Married Field Checked" style="max-width: 200px;">
+    <img src="results/3.1-adding_a_user_with_married_field_check.png" alt="Adding a User with Married Field Checked" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/3.2-user_save_successfully.png" alt="User Saved Successfully" style="max-width: 200px;">
+    <img src="results/3.2-user_save_successfully.png" alt="User Saved Successfully" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/4.1-query_user_show_a_toast_of_all_users_and_their_id.png" alt="Query User" style="max-width: 200px;">
+    <img src="results/4.1-query_user_show_a_toast_of_all_users_and_their_id.png" alt="Query User" style="max-width: 100%; height: auto;">
 </div>
 
 <!-- Third Row -->
 <div style="margin: 5px;">
-    <img src="results/5.1-show_table_data_shows_the_list_of_all_users_and_their_info.png" alt="Show Table Data" style="max-width: 200px;">
+    <img src="results/5.1-show_table_data_shows_the_list_of_all_users_and_their_info.png" alt="Show Table Data" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/6.1-delete_user_by_id.png" alt="Delete User by ID" style="max-width: 200px;">
+    <img src="results/6.1-delete_user_by_id.png" alt="Delete User by ID" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/6.2-user_deleted_successfully.png" alt="User Deleted Successfully" style="max-width: 200px;">
+    <img src="results/6.2-user_deleted_successfully.png" alt="User Deleted Successfully" style="max-width: 100%; height: auto;">
 </div>
 
 <!-- Fourth Row -->
 <div style="margin: 5px;">
-    <img src="results/6.3-show_table_data_and_user_1_is_no_longer_available.png" alt="Show Table Data and User 1 is No Longer Available" style="max-width: 200px;">
+    <img src="results/6.3-show_table_data_and_user_1_is_no_longer_available.png" alt="Show Table Data and User 1 is No Longer Available" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/6.4-query_user_and_there_is_no_user_with_the_id_1.png" alt="Query User and There is No User with the ID 1" style="max-width: 200px;">
+    <img src="results/6.4-query_user_and_there_is_no_user_with_the_id_1.png" alt="Query User and There is No User with the ID 1" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/7.1-writing_update_for_user2.png" alt="Writing Update for User 2" style="max-width: 200px;">
+    <img src="results/7.1-writing_update_for_user2.png" alt="Writing Update for User 2" style="max-width: 100%; height: auto;">
 </div>
 
 <!-- Fifth Row -->
 <div style="margin: 5px;">
-    <img src="results/7.2-enter_user_id_to_update_user.png" alt="Enter User ID to Update User" style="max-width: 200px;">
+    <img src="results/7.2-enter_user_id_to_update_user.png" alt="Enter User ID to Update User" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/7.3-User_updated_successfully.png" alt="User Updated Successfully" style="max-width: 200px;">
+    <img src="results/7.3-User_updated_successfully.png" alt="User Updated Successfully" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/7.4-show_table_data_with_updated_user2.png" alt="Show Table Data with Updated User 2" style="max-width: 200px;">
+    <img src="results/7.4-show_table_data_with_updated_user2.png" alt="Show Table Data with Updated User 2" style="max-width: 100%; height: auto;">
 </div>
 
 <!-- Sixth Row -->
 <div style="margin: 5px;">
-    <img src="results/8.1-delete_database_successfully.png" alt="Delete Database Successfully" style="max-width: 200px;">
+    <img src="results/8.1-delete_database_successfully.png" alt="Delete Database Successfully" style="max-width: 100%; height: auto;">
 </div>
 
 <div style="margin: 5px;">
-    <img src="results/8.2-query_user_and_no_users_available_since_database_was_deleted.png" alt="Query User and No Users Available Since Database Was Deleted" style="max-width: 200px;">
+    <img src="results/8.2-query_user_and_no_users_available_since_database_was_deleted.png" alt="Query User and No Users Available Since Database Was Deleted" style="max-width: 100%; height: auto;">
 </div>
 
 </div>
-
-
