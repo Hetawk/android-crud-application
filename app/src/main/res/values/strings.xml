@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SQLite_Database</string>
+    <string name="error_creating_database">Error creating database</string>
+    <string name="error_deleting_database">Error deleting database</string>
+</resources>

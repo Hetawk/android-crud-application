@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_crud1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_crud_db"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perform Operations In Database"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_crud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_crud1"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_crud2_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/btn_crud_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp" />
+
+                <EditText
+                    android:id="@+id/et_crud_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your name here"
+                    android:layout_toEndOf="@id/btn_crud_name"
+                    android:layout_marginStart="16dp" />
+
+            </RelativeLayout>
+
+            <!-- Age -->
+            <RelativeLayout
+                android:id="@+id/rl_crud2_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_crud2_name"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/btn_crud_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp" />
+
+                <EditText
+                    android:id="@+id/et_crud_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your Age here"
+                    android:layout_toEndOf="@id/btn_crud_age"
+                    android:layout_marginStart="16dp" />
+
+            </RelativeLayout>
+
+            <!-- Height -->
+            <RelativeLayout
+                android:id="@+id/rl_crud2_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_crud2_age"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/btn_crud_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Height"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp" />
+
+                <EditText
+                    android:id="@+id/et_crud_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your height here"
+                    android:layout_toEndOf="@id/btn_crud_height"
+                    android:layout_marginStart="16dp" />
+
+            </RelativeLayout>
+
+            <!-- Weight -->
+            <RelativeLayout
+                android:id="@+id/rl_crud2_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_crud2_height"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/btn_crud_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp" />
+
+                <EditText
+                    android:id="@+id/et_crud_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your weight here"
+                    android:layout_toEndOf="@id/btn_crud_weight"
+                    android:layout_marginStart="16dp" />
+
+            </RelativeLayout>
+
+            <!-- Marriage Checkbox -->
+            <RelativeLayout
+                android:id="@+id/rl_crud2_marriage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_crud2_weight"
+                android:layout_marginBottom="16dp">
+
+                <CheckBox
+                    android:id="@+id/cb_crud_marriage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Married"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_crud2"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_below="@+id/btn_save"
+                android:layout_marginBottom="8dp"
+                />
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:layout_below="@+id/btn_delete"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btn_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Query"
+                android:layout_below="@+id/btn_update"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btn_show_table_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Table Data"
+                android:layout_below="@+id/btn_query"
+                android:layout_marginTop="20dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_user_info_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_below="@id/rl_buttons"
+            >
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
